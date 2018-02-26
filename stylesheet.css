@@ -1,0 +1,56 @@
+body {
+	font-family: "Segoe UI Light","Segoe UI","Segoe WP","Helvetica Neue",sans-serif;
+	background-color: #e0ecff;
+}
+
+#header {
+	font-style: italic;
+    background-color: white;
+}
+
+.tile {
+	-webkit-transition: width 2s; /* Safari */
+    transition: width 2s;
+}
+
+.tile:hover {
+	background-color: #ddffe4;
+}
+
+#ClaimButton {
+	width: 25%;
+	height: 100%;
+	margin-left: 70%;
+	margin-right: center;
+	border-radius: 50%;
+}
+#LogOutButton {
+	width: 25%;
+	height: 100%;
+	margin-left: center;
+	margin-right: auto;
+	border-radius: 50%;
+     
+}
+
+#map {
+        height: 400px;
+        width: 80%;
+		margin:0 auto 0 auto;
+		
+       }
+#main {
+	background-color: #bdd9fc;
+}
+#userID {
+	font: "Bauhaus 93"; 
+}
+#password {
+	font: "Bauhaus 93";
+}
+#bottom {
+    font: "Bauhaus 93";
+}
+#logout {
+    color: white;
+}
